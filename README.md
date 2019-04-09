@@ -1,5 +1,14 @@
 # go-web-server
 
+## Instructions
+
+Write a Dockerfile that compiles and then runs the web server in this repository.  
+
+Write it as if the container will be used in production.  
+
+-----
+
+## Notes
 This Go webserver compiles with Go version 1.12+.  
 
 It exposes a web server on port 8080 and logs to STDOUT.  The port is configurable by setting the PORT environment variable.  
